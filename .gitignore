@@ -1,0 +1,19 @@
+# Environment
+.env
+venv/
+__pycache__/
+*.pyc
+
+# dbt
+dbt_recon/target/
+dbt_recon/dbt_packages/
+dbt_recon/logs/
+
+# Data
+data/raw/*.csv
+
+# Logs
+logs/
+
+# IDE
+.vscode/
